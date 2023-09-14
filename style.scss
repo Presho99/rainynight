@@ -16,7 +16,7 @@ $drop-color: #7fc1f9;
 }
 
 .moon {
-  background-color: #ece1a8;
+  background-color: #f6edbd;
   width: 70px;
   height: 70px;
   overflow: hidden;
@@ -34,8 +34,8 @@ $drop-color: #7fc1f9;
     top: 9px;
     left: 28px;
     border-radius: 10px;
-    background: #ece1a8;
-    z-index: 2;
+    background: #ECE1A8;
+
   }
 
   .crater-2 {
@@ -43,6 +43,65 @@ $drop-color: #7fc1f9;
     top: 12px;
     left: 0;
   }
+
+  .crater-3 {
+    @extend .crater-1;
+    top: 56px;
+    left: 10px;
+}
+
+.crater-4 {
+    @extend .crater-1;
+    width: 6px;
+    height: 6px;
+    top: 37px;
+    left: 49px;
+}
+
+.crater-5 {
+    @extend .crater-4;
+    top: 24px;
+    left: 61px;
+}
+
+.crater-6 {
+    @extend .crater-4;
+    top: 55px;
+    left: 33px;
+}
+
+.crater-7 {
+    @extend .crater-4;
+    top: 17px;
+    left: 46px;
+}
+
+.crater-8 {
+    @extend .crater-4;
+    top: 28px;
+    left: 27px;
+}
+
+.crater-9 {
+    @extend .crater-4;
+    top: 39px;
+    left: 17px;
+}
+
+.crater-10 {
+    @extend .crater-1;
+    width: 4px;
+    height: 4px;
+    top: 25px;
+    left: 15px;
+}
+
+.crater-11 {
+    @extend .crater-10;
+    top: 37px;
+    left: 37px;
+}
+
 }
 
 .hill-bg-1 {

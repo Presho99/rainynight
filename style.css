@@ -15,7 +15,7 @@
 }
 
 .moon {
-  background-color: #ece1a8;
+  background-color: #f6edbd;
   width: 70px;
   height: 70px;
   overflow: hidden;
@@ -29,20 +29,68 @@
           animation: rise 1s ease-out;
 }
 
-.moon .crater-1, .moon .crater-2 {
+.moon .crater-1, .moon .crater-2, .moon .crater-3, .moon .crater-4, .moon .crater-5, .moon .crater-6, .moon .crater-7, .moon .crater-8, .moon .crater-9, .moon .crater-10, .moon .crater-11 {
   position: absolute;
   width: 11px;
   height: 11px;
   top: 9px;
   left: 28px;
   border-radius: 10px;
-  background: #ece1a8;
-  z-index: 2;
+  background: #ECE1A8;
 }
 
 .moon .crater-2 {
   top: 12px;
   left: 0;
+}
+
+.moon .crater-3 {
+  top: 56px;
+  left: 10px;
+}
+
+.moon .crater-4, .moon .crater-5, .moon .crater-6, .moon .crater-7, .moon .crater-8, .moon .crater-9 {
+  width: 6px;
+  height: 6px;
+  top: 37px;
+  left: 49px;
+}
+
+.moon .crater-5 {
+  top: 24px;
+  left: 61px;
+}
+
+.moon .crater-6 {
+  top: 55px;
+  left: 33px;
+}
+
+.moon .crater-7 {
+  top: 17px;
+  left: 46px;
+}
+
+.moon .crater-8 {
+  top: 28px;
+  left: 27px;
+}
+
+.moon .crater-9 {
+  top: 39px;
+  left: 17px;
+}
+
+.moon .crater-10, .moon .crater-11 {
+  width: 4px;
+  height: 4px;
+  top: 25px;
+  left: 15px;
+}
+
+.moon .crater-11 {
+  top: 37px;
+  left: 37px;
 }
 
 .hill-bg-1, .hill-bg-2, .hill-fg-1, .hill-fg-2, .hill-fg-3 {
@@ -128,8 +176,8 @@
   background: #7fc1f9;
   left: 18px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 0.6s infinite;
-          animation: drop 0.9s linear 0.6s infinite;
+  -webkit-animation: drop 0.9s linear 0.8s infinite;
+          animation: drop 0.9s linear 0.8s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -165,8 +213,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.4s linear 0.08s infinite;
-          animation: drop 1.4s linear 0.08s infinite;
+  -webkit-animation: drop 1.5s linear 0.16s infinite;
+          animation: drop 1.5s linear 0.16s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -190,8 +238,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2s linear 0.68s infinite;
-          animation: drop 2s linear 0.68s infinite;
+  -webkit-animation: drop 2.1s linear 1.4s infinite;
+          animation: drop 2.1s linear 1.4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -219,8 +267,8 @@
   background: #7fc1f9;
   left: 56px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 0.96s infinite;
-          animation: drop 0.9s linear 0.96s infinite;
+  -webkit-animation: drop 0.8s linear 1.92s infinite;
+          animation: drop 0.8s linear 1.92s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -256,8 +304,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.5s linear 0.84s infinite;
-          animation: drop 1.5s linear 0.84s infinite;
+  -webkit-animation: drop 1.5s linear 0.68s infinite;
+          animation: drop 1.5s linear 0.68s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -281,8 +329,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2s linear 0.52s infinite;
-          animation: drop 2s linear 0.52s infinite;
+  -webkit-animation: drop 2.1s linear 0.16s infinite;
+          animation: drop 2.1s linear 0.16s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -310,8 +358,8 @@
   background: #7fc1f9;
   left: 94px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 0.64s infinite;
-          animation: drop 0.9s linear 0.64s infinite;
+  -webkit-animation: drop 0.8s linear 1.24s infinite;
+          animation: drop 0.8s linear 1.24s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -347,8 +395,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.5s linear 0.36s infinite;
-          animation: drop 1.5s linear 0.36s infinite;
+  -webkit-animation: drop 1.5s linear 0.4s infinite;
+          animation: drop 1.5s linear 0.4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -372,8 +420,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2.1s linear 1.92s infinite;
-          animation: drop 2.1s linear 1.92s infinite;
+  -webkit-animation: drop 2s linear 1.2s infinite;
+          animation: drop 2s linear 1.2s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -401,8 +449,8 @@
   background: #7fc1f9;
   left: 132px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 0.24s infinite;
-          animation: drop 0.9s linear 0.24s infinite;
+  -webkit-animation: drop 0.8s linear 1.76s infinite;
+          animation: drop 0.8s linear 1.76s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -438,8 +486,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.5s linear 1.4s infinite;
-          animation: drop 1.5s linear 1.4s infinite;
+  -webkit-animation: drop 1.5s linear 0.48s infinite;
+          animation: drop 1.5s linear 0.48s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -463,8 +511,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2.1s linear 1.04s infinite;
-          animation: drop 2.1s linear 1.04s infinite;
+  -webkit-animation: drop 2.1s linear 1.4s infinite;
+          animation: drop 2.1s linear 1.4s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -492,8 +540,8 @@
   background: #7fc1f9;
   left: 170px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 0.76s infinite;
-          animation: drop 0.9s linear 0.76s infinite;
+  -webkit-animation: drop 0.8s linear 0.28s infinite;
+          animation: drop 0.8s linear 0.28s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -529,8 +577,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.4s linear 0.04s infinite;
-          animation: drop 1.4s linear 0.04s infinite;
+  -webkit-animation: drop 1.5s linear 1.44s infinite;
+          animation: drop 1.5s linear 1.44s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -554,8 +602,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2.1s linear 0.8s infinite;
-          animation: drop 2.1s linear 0.8s infinite;
+  -webkit-animation: drop 2s linear 0.92s infinite;
+          animation: drop 2s linear 0.92s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -583,8 +631,8 @@
   background: #7fc1f9;
   left: 208px;
   bottom: 90px;
-  -webkit-animation: drop 0.8s linear 1.6s infinite;
-          animation: drop 0.8s linear 1.6s infinite;
+  -webkit-animation: drop 0.8s linear 0.04s infinite;
+          animation: drop 0.8s linear 0.04s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -620,8 +668,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.4s linear 0.96s infinite;
-          animation: drop 1.4s linear 0.96s infinite;
+  -webkit-animation: drop 1.4s linear 0.8s infinite;
+          animation: drop 1.4s linear 0.8s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -645,8 +693,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2s linear 1.76s infinite;
-          animation: drop 2s linear 1.76s infinite;
+  -webkit-animation: drop 2s linear 1.56s infinite;
+          animation: drop 2s linear 1.56s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -674,8 +722,8 @@
   background: #7fc1f9;
   left: 246px;
   bottom: 90px;
-  -webkit-animation: drop 0.8s linear 0.84s infinite;
-          animation: drop 0.8s linear 0.84s infinite;
+  -webkit-animation: drop 0.9s linear 1.64s infinite;
+          animation: drop 0.9s linear 1.64s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -711,8 +759,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.5s linear 1.36s infinite;
-          animation: drop 1.5s linear 1.36s infinite;
+  -webkit-animation: drop 1.5s linear 1.72s infinite;
+          animation: drop 1.5s linear 1.72s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -736,8 +784,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2.1s linear 1.24s infinite;
-          animation: drop 2.1s linear 1.24s infinite;
+  -webkit-animation: drop 2s linear 0.36s infinite;
+          animation: drop 2s linear 0.36s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -765,8 +813,8 @@
   background: #7fc1f9;
   left: 284px;
   bottom: 90px;
-  -webkit-animation: drop 0.8s linear 0.32s infinite;
-          animation: drop 0.8s linear 0.32s infinite;
+  -webkit-animation: drop 0.9s linear 0.6s infinite;
+          animation: drop 0.9s linear 0.6s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -802,8 +850,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.4s linear 0.44s infinite;
-          animation: drop 1.4s linear 0.44s infinite;
+  -webkit-animation: drop 1.5s linear 1.72s infinite;
+          animation: drop 1.5s linear 1.72s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -827,8 +875,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2.1s linear 0.44s infinite;
-          animation: drop 2.1s linear 0.44s infinite;
+  -webkit-animation: drop 2s linear 1.68s infinite;
+          animation: drop 2s linear 1.68s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -856,8 +904,8 @@
   background: #7fc1f9;
   left: 322px;
   bottom: 90px;
-  -webkit-animation: drop 0.9s linear 1.52s infinite;
-          animation: drop 0.9s linear 1.52s infinite;
+  -webkit-animation: drop 0.9s linear 0.12s infinite;
+          animation: drop 0.9s linear 0.12s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -893,8 +941,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.5s linear 0.48s infinite;
-          animation: drop 1.5s linear 0.48s infinite;
+  -webkit-animation: drop 1.4s linear 0.88s infinite;
+          animation: drop 1.4s linear 0.88s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -918,8 +966,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2s linear 0.12s infinite;
-          animation: drop 2s linear 0.12s infinite;
+  -webkit-animation: drop 2s linear 1.24s infinite;
+          animation: drop 2s linear 1.24s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -947,8 +995,8 @@
   background: #7fc1f9;
   left: 360px;
   bottom: 90px;
-  -webkit-animation: drop 0.8s linear 0.6s infinite;
-          animation: drop 0.8s linear 0.6s infinite;
+  -webkit-animation: drop 0.8s linear 1.36s infinite;
+          animation: drop 0.8s linear 1.36s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
   -webkit-transform-origin: 50% 100%;
@@ -984,8 +1032,8 @@
   opacity: 0.6;
   width: 6px;
   height: 6px;
-  -webkit-animation: drop 1.4s linear 0.76s infinite;
-          animation: drop 1.4s linear 0.76s infinite;
+  -webkit-animation: drop 1.4s linear 0.36s infinite;
+          animation: drop 1.4s linear 0.36s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
@@ -1009,8 +1057,8 @@
   opacity: 0.3;
   width: 4px;
   height: 4px;
-  -webkit-animation: drop 2s linear 0.68s infinite;
-          animation: drop 2s linear 0.68s infinite;
+  -webkit-animation: drop 2.1s linear 0.16s infinite;
+          animation: drop 2.1s linear 0.16s infinite;
   -webkit-animation-fill-mode: both;
           animation-fill-mode: both;
 }
